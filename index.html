@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+      <title>Blog Personal</title> 
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./estilos/index.css">
+
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/4712/4712076.png">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img class="imagen-yo" src="./imagenes/yo.jpg" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Fortnite
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./paginas/fortnite.html">Inicio-Fortnite</a></li>
+                          <li><a class="dropdown-item" href="https://www.youtube.com/c/fortnite" target="_blank">Canal de Youtube</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dota 2
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./paginas/dota2.html">Inicio-Dota2</a></li>
+                          <li><a class="dropdown-item" href="https://www.youtube.com/user/dota2/featured" target="_blank">Canal de Youtube</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Wofteam
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./paginas/wolfteam.html">Inicio-Wolfteam</a></li>
+                          <li><a class="dropdown-item" href="https://www.youtube.com/c/WolfTeamLatinoOficial/featured" target="_blank">Canal de Youtube</a></li>
+                        </ul>
+                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pokemon Go
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./paginas/pokemon-go.html">Inicio-P-GO</a></li>
+                          <li><a class="dropdown-item" href="https://www.youtube.com/c/pokemongo/featured" target="_blank">Canal de Youtube</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./paginas/masjuegos.html">Mas juegos</a>
+                      </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                      <button class="btn btn-outline-success bg-light" type="submit">Buscar</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <header class="header" id="inicio">
+            <img src="./imagenes/hamburguesa.svg" alt="" class="hamburguesa">
+            <nav class="menu-navegacion">
+                <p>Categorias</p>
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Informacion del blog</a>
+                <a href="#portafolio">Mis juegos Favoritos</a>
+                <a href="#informacion">Informacion de los videosjuegos</a>
+                <a href="#contacto">Contactos</a>
+            </nav>
+            <ul class="p-informacion">
+              <li><img src="./imagenes/yo.jpg" alt=""></li>
+              <li><b>Nombre: </b> ELwis Wagner Choque Huacasi</li>
+              <li><b>Centro de Estudios:</b> Universidad Nacional del Altiplano Puno</li>
+              <li><b>Correo:</b> protuluis123@gmail.com</li>
+              <li><b>N° de Celular:</b> 969692713</li>
+              <div class="social-media-yo">
+                <a href="https://www.facebook.com/elviswagner.choquehuacasi" class="social-media-icon-yo" target="_blank">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://wa.me/51969692713" class="social-media-icon-yo" target="_blank">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+            </div>
+
+            </ul>
+            <div class="contenedor head">
+                <h1 class="titulo">Hola,</h1>
+                <b>Me llamo Elwis Wagner</b>
+                <p>En este blog encontraras los juegosque mas me justan jugar</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="contenedor" id="servicio">
+                <h2 class="subtitulo">¿Qué encontraras en este blog?</h2>
+                <div class="contenedor-servicio">
+                    <img src="https://elcomercio.pe/resizer/Ejkny3k6HhYStvTPWoD2RepHOaU=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/IM4MADLNINBERIOO3SUWCFHTXI.jpg" alt="">
+                    <div class="checklist-service">
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">1</span>Juegos</h3>
+                            <p>Los juegos que podrás encontrar son los que yo he jugado y a los que considero más divertidos para jugar con tus amigos</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">2</span>Informacion del juego</h3>
+                            <p>Podrás ver y leer información acerca del juego además de conocer a las influencias (youtubers y strimers) que yo conozco y que te podrían agradar</p>
+                        </div>
+                        <div class="service">
+                            <h3 class="n-service"><span class="number">3</span>Mi perfil de juego</h3>
+                            <p>También podrás ver mi perfil en algunos juegos ya que en otros no es posible tener un enlace para poder ver mi perfil de juego</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="galery" id="portafolio">
+                <div class="contenedor">
+                    <h2 class="subtitulo">Mis Juegos Favoritos</h2>
+                    <div class="contenedor-galeria">
+                        <img src="https://cdn1.epicgames.com/offer/fn/22BR_C3S4_EGS_StoreArt_Blade_2560x1440_2560x1440-d2d92800a59a2a71101041c4a98dfd12?h=270&resize=1&w=480" alt="" class="img-galeria">
+                        <img src="https://i.blogs.es/de368e/dota-2-wallpaper/1366_2000.jpg" alt="" class="img-galeria">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1287290/capsule_616x353.jpg?t=1613613526" alt="" class="img-galeria">
+                        <img src="https://elcomercio.pe/resizer/nLs5pZnb6ArRIY8DGBgpE0XTVi4=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/RNY6F2L64FBENKPY62WODE7W24.jpg" alt="" class="img-galeria">
+                        <img src="https://as01.epimg.net/meristation/imagenes/2016/05/31/reportaje/1464674400_294294_1532358096_portada_normal.jpg" alt="" class="img-galeria">
+                    </div>
+                </div>
+            </section>
+            <section class="imagen-light">
+                <img src="./imagenes/close.svg" alt="" class="close">
+                <img src="https://e.rpp-noticias.io/xlarge/2021/06/11/210521_1106601.jpg" alt="" class="agregar-imagen">
+            </section>
+            <section class="contenedor" id="informacion">
+                <h2 class="subtitulo">Informacion Principal que se mostrara de los videosjuegos</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                        <h3 class="n-expert">1. Descripcion del juego</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200805220544/bugha-fortnite-streamer-twitch-youtube02-2-1110x900.jpg" alt="">
+                        <h3 class="n-expert">2. Mis jugadores favoritos</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="https://www.egames.news/__export/1644092736543/sites/debate/img/2022/02/05/cuxles_son_todos_los_tipos_de_gamers_que_existen_y_cxmo_saber_si_eres_un_noob_o_un_hardcore_gamer.jpg_1902800913.jpg" alt="">
+                        <h3 class="n-expert">3. Mi perfil en cada juego</h3>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <!--footer-->
+
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                  <h3>Envia tus comentarios a mi correo :)</h3><br>
+                  <form action="https://formsubmit.co/protuluis123@gmail.com" method="POST">
+                    <label for="">Tu Nombre:
+                      <input type="text" name="name" required>
+                    </label>
+                    <br><br>
+                    <label for="">Mesnaje:
+                      <input type="text" name="text" required>
+                    </label>
+                    <br><br>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </form>
+                </div>
+               
+                <div class="social-media">
+                    <h2>Medios de Contacto: </h2>
+                    <a href="https://www.facebook.com/elviswagner.choquehuacasi" class="social-media-icon" target="_blank">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://wa.me/51969692713" class="social-media-icon" target="_blank">
+                        <i class='bx bxl-whatsapp' ></i>
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="./java1/menu.js"></script>
+        <script src="./java1/index.js"></script>
+        <script src="./java1/p.information.js"></script>
+
+    </body>
+</html>
