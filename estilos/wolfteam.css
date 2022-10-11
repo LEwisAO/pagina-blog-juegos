@@ -264,9 +264,6 @@ nav ul li a{
     .image{
         visibility: hidden;
     }
-    .subtitulo{
-        font-size: 20px;
-    }
     .contenedor-servicio img{
         width: 80%;
         margin-bottom: 40px;
@@ -313,6 +310,17 @@ nav ul li a{
             height: auto;
         }
 
+        .content .main-text h1{
+            font-size: 50px;
+            line-height: 1;
+            color: white;
+            margin: 0px 0px 45px;
+            font-family: 'Permanent Marker', cursive;
+        }
+        .subtitulo{
+            font-size: 20px;
+        }
+
         .video1{
             width: 90%;
             height: auto;
@@ -350,4 +358,13 @@ nav ul li a{
             height: auto;
         }
         }
+        @media screen and (max-width: 250px){
+            .content .main-text h1{
+                font-size: 25px;
+                line-height: 1;
+                color: white;
+                margin: 0px 0px 45px;
+                font-family: 'Permanent Marker', cursive;
+            }
+            }
         

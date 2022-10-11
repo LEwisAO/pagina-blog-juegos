@@ -299,9 +299,6 @@ nav ul li a{
     .service{
         margin-bottom: 30px;
     }
-    .subtitulo{
-        font-size: 20px;
-    }
     .n-service img{
         margin-top: 15px;
         width: 25%;
@@ -339,6 +336,17 @@ nav ul li a{
             width: 90%;
             height: auto;
         }
+        .content .main-text h1{
+            font-size: 50px;
+            line-height: 1;
+            color: white;
+            margin: 0px 0px 45px;
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        .subtitulo{
+            font-size: 20px;
+        }
         
         .image{
             visibility: hidden;
@@ -375,3 +383,12 @@ nav ul li a{
             height: auto;
         }
         }
+        @media screen and (max-width: 250px){
+            .content .main-text h1{
+                font-size: 25px;
+                line-height: 1;
+                color: white;
+                margin: 0px 0px 45px;
+                font-family: 'Permanent Marker', cursive;
+            }
+            }
