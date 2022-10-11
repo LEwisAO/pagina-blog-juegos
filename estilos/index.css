@@ -331,8 +331,8 @@ footer{
 }
 
 .contact-us input{
-    border-radius: 10px;
-    padding-left: 150px;
+    border-radius: 15px;
+    padding-left: 10px;
 }
 
 .brand{
@@ -380,7 +380,9 @@ footer{
     .menu-navegacion{
         width: 50vw;
     }
-
+    .p-informacion{
+        width: 50vw;;
+    }
     .titulo{
         font-size: 40px;
     }
@@ -428,8 +430,9 @@ footer{
     .menu-navegacion{
         width: 65vw;
     }
+
     .hamburguesa{
-        top: 20px;
+        top: 120px;
         right: 20px;
     }
     .titulo{

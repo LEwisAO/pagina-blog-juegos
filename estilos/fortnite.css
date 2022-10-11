@@ -30,9 +30,14 @@ body{
     position: relative;
 }
 
-.video-fortnite iframe{
+.video-fortnite{
     width: 550px;
     height: 350px;
+}
+
+.video1{
+    width: 560px;
+    height: 315px;
 }
 
 /* css con el nav de boostrap */
@@ -258,6 +263,7 @@ nav ul li a{
         margin-bottom: 30px;
     }
     .n-service img{
+        margin-top: 15px;
         width: 25%;
         height: auto;
     }
@@ -278,4 +284,49 @@ nav ul li a{
         height: auto;
     }
     }
+
+    @media screen and (max-width: 500px){
+        section{
+            text-align: center;
+        }
+        .video-fortnite{
+            width: 75%;
+            height: auto;
+        }
+
+        .video1{
+            width: 90%;
+            height: auto;
+        }
+
+        .image{
+            visibility: hidden;
+        }
+        .contenedor-servicio img{
+            width: 80%;
+            margin-bottom: 40px;
+            margin-top: 15px;
+        }
+        .n-service img{
+            margin-top: 15px;
+            width: 25%;
+            height: auto;
+        }
+        .carousel-inner{
+            margin-left: 0%;
+            text-align: center;
+        }
+        .imagen3-1{
+            width: 70%;
+            height: auto;
+        }
+        .imagen3-2{
+            width: 70%;
+            height: auto;
+        }
+        .imagen3-3{
+            width: 70%;
+            height: auto;
+        }
+        }
     

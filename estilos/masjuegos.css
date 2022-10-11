@@ -99,10 +99,6 @@ nav ul li a{
     margin-bottom: 20px;
 }
 
-.n-service{
-    margin-bottom: 7px;
-}
-
 /* redes sociales */
 
 .checklist-service .service{
@@ -152,13 +148,28 @@ nav ul li a{
     .service{
         margin-bottom: 30px;
     }
-    .n-service img{
-        width: 25%;
-        height: auto;
     }
-    .carousel-inner{
-        margin-left: 0%;
-        text-align: center;
-    }
-    }
+
+    @media screen and (max-width: 500px){
+        section{
+            text-align: center;
+        }
+        .image{
+            visibility: hidden;
+        }
+        .contenedor-servicio img{
+            width: 80%;
+            margin-bottom: 40px;
+        }
+        .checklist-service{
+            width: 80%;
+        }
+        .service{
+            margin-bottom: 30px;
+        }
+        .trailer{
+            width: 70%;
+            height: auto;
+        }
+        }
     

@@ -35,6 +35,11 @@ body{
     height: 350px;
 }
 
+.video1{
+    width: 550px;
+    height: 315px;
+}
+
 /* css con el nav de boostrap */
 
 nav ul li{
@@ -267,6 +272,7 @@ nav ul li a{
         margin-bottom: 30px;
     }
     .n-service img{
+        padding-top: 15px;
         width: 25%;
         height: auto;
     }
@@ -275,4 +281,43 @@ nav ul li a{
         text-align: center;
     }
     }
-    
+
+    @media screen and (max-width: 500px){
+        section{
+            text-align: center;
+        }
+        .image{
+            visibility: hidden;
+        }
+
+        .video-p-go iframe{
+            width: 75%;
+            height: auto;
+        }
+
+        .video1{
+            width: 90%;
+            height: auto;
+        }
+
+        .contenedor-servicio img{
+            width: 80%;
+            margin-bottom: 40px;
+        }
+        .checklist-service{
+            width: 80%;
+        }
+        .service{
+            margin-bottom: 30px;
+        }
+        .n-service img{
+            margin-top: 15px;
+            width: 25%;
+            height: auto;
+        }
+        .carousel-inner{
+            margin-left: 0%;
+            text-align: center;
+        }
+        }
+        
