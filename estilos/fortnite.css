@@ -299,6 +299,15 @@ nav ul li a{
             height: auto;
         }
 
+        .content .main-text h1{
+            position: relative;
+            font-size: 50px;
+            line-height: 1;
+            color: white;
+            margin: 0px 0px 45px;
+            font-family: 'Permanent Marker', cursive;
+        }
+
         .image{
             visibility: hidden;
         }
@@ -329,4 +338,16 @@ nav ul li a{
             height: auto;
         }
         }
+    
+        @media screen and (max-width: 250px){
+        .content .main-text h1{
+            font-size: 25px;
+            line-height: 1;
+            color: white;
+            margin: 0px 0px 45px;
+            font-family: 'Permanent Marker', cursive;
+        }
+        }
+        
+
     
