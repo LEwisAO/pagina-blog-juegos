@@ -264,7 +264,9 @@ nav ul li a{
     .image{
         visibility: hidden;
     }
-    
+    .subtitulo{
+        font-size: 20px;
+    }
     .contenedor-servicio img{
         width: 80%;
         margin-bottom: 40px;

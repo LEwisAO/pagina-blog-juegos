@@ -299,6 +299,9 @@ nav ul li a{
     .service{
         margin-bottom: 30px;
     }
+    .subtitulo{
+        font-size: 20px;
+    }
     .n-service img{
         margin-top: 15px;
         width: 25%;
