@@ -23,7 +23,6 @@ body{
 header{
     height: 50vh;
     background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-lluvia-pixeles_23-2148377117.jpg?w=2000);
-    /*linear-gradient(to top, #9571e973 0%, #f7cbea 100%),*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -156,7 +155,7 @@ header{
 
 .titulo{
     font-size: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .copy{
